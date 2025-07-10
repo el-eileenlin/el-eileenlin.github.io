@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", "Bitstream Vera Sans Mono", monospace;
     line-height: 1.6;
     background-color: #f9f6f2;
     color: #333;
@@ -16,7 +16,7 @@
     text-decoration: none;
   }
   header {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
   }
   header h1 {
