@@ -29,43 +29,64 @@
     font-size: 1.1rem;
     color: #555;
   }
+
   /* Introduction Section */
-  .intro-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  margin-bottom: 60px;
-}
+  .intro-wrapper{
+    padding: 0 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+    .intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
 
-.intro-text {
-  flex: 1;
-  max-width: 600px;
-}
+  .intro-text {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    height: 100%;
+  }
 
-.intro-image img {
-  width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+  .intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-/* Social Links */
-.social-links {
+  .intro-image img {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  /* Social Links */
+  .social-links {
   margin-bottom: 40px;
   font-size: 1.1rem;
   color: #444;
-}
+  }
 
-.social-links a {
+  .social-links a {
   color: #B9D9EB;
   font-weight: bold;
   margin: 0 10px;
   transition: color 0.2s ease;
-}
+  }
 
-.social-links a:hover {
+  .social-links a:hover {
   color: #333;
-}
+  }
 
 
   /* Projects */
@@ -143,15 +164,20 @@
     .project-info h2 {
       font-size: 1.1rem;
     }
-      .intro-section {
+  .intro-section {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro-text {
+    max-width: 100%;
   }
 
   .intro-image img {
-    width: 100%;
-    max-width: 300px;
+    width: 250px;
   }
+
 
   }
   
