@@ -49,6 +49,24 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* Social Links */
+.social-links {
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.social-links a {
+  color: #B9D9EB;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #333;
+}
+
 
   /* Projects */
   .projects {
