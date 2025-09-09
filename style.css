@@ -9,7 +9,7 @@
     line-height: 1.6;
     background-color: #f9f6f2;
     color: #333;
-    padding: 20px;
+    padding: 45px;
   }
   a {
     color: inherit;
@@ -18,6 +18,8 @@
   header {
     text-align: justify;
     margin-bottom: 40px;
+    padding-bottom: 30px
+  
   }
   header h1 {
     font-size: 2.5rem;
@@ -27,12 +29,33 @@
     font-size: 1.1rem;
     color: #555;
   }
-  
+  /* Introduction Section */
+  .intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.intro-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.intro-image img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
   /* Projects */
   .projects {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding-top: 20px;
   }
   .project-card {
     background: #fff;
@@ -102,5 +125,15 @@
     .project-info h2 {
       font-size: 1.1rem;
     }
+      .intro-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .intro-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
   }
   
