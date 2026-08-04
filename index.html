@@ -3,61 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eileen Lin's Portfolio</title>
+  <title>Eileen Lin</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="intro-wrapper">
-  <div class="intro-top">
-    <div class="intro-photo">
-      <img src="images/eileen-profile.jpg" alt="Eileen Lin profile photo">
-    </div>
-    <div class="intro-center">
-      <h1>Eileen Lin</h1>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/el-eileenlin" target="_blank">LinkedIn</a> |
-        <a href="https://drive.google.com/file/d/1aL6iwZijHPqCdIh2_O7RlT8LMwjhuMGY/view?usp=sharing" target="_blank">Resume</a>
+
+  <div class="wrapper">
+
+    <header class="site-header">
+      <div class="header-text">
+        <h1>Eileen Lin</h1>
+        <p class="subtitle">Mechanical &amp; Aerospace Engineering, Columbia University</p>
+        <p class="links">
+          <a href="https://www.linkedin.com/in/el-eileenlin" target="_blank">LinkedIn</a>
+          &nbsp;/&nbsp;
+          <a href="https://drive.google.com/file/d/1aL6iwZijHPqCdIh2_O7RlT8LMwjhuMGY/view?usp=sharing" target="_blank">Resume</a>
+          &nbsp;/&nbsp;
+          <a href="mailto:youremail@columbia.edu">Email</a>
+        </p>
       </div>
-    </div>
+      <div class="header-photo">
+        <img src="images/eileen-profile.jpg" alt="Eileen Lin">
+      </div>
+    </header>
+
+    <section class="bio">
+      <p>
+        I am a junior studying mechanical and aerospace engineering at Columbia University.
+        I am currently an undergraduate researcher in the Robotics and Rehabilitation Laboratory under Prof. Sunil K. Agrawal where I am working on a cable assisted torso stablizing system for wheelchair users.
+        Outside of my technical work, I am the secretary for the Columbia Space Initiative and producer for <a href="https://open.spotify.com/show/1nhfebFtoh0dMptCTBRifo?si=1a7fe04fe7a64eb9"> This is Rocket Science.</a>
+        I am  passionate about STEM outreach and science communication.
+      </p>
+      <p>
+        I am interested in robotics, human-centered interaction, and  design for aerospace
+        tools and applications. I'm currently looking for Summer 2027 opportunities in mechanical
+        or aerospace engineering, robotics, and project management.
+      </p>
+    </section>
+
+    <hr>
+
+    <section class="projects">
+      <h2>Selected Projects</h2>
+
+      <div class="project-entry">
+        <a href="astroid.html" class="project-thumb">
+          <img src="images/mg_1.JPG" alt="ASTROID under water at the NBL">
+        </a>
+        <div class="project-text">
+          <h3><a href="astroid.html">ASTROID</a></h3>
+          <p class="project-meta">2025 NASA Micro-g NExT Challenge &middot; Columbia Space Initiative</p>
+          <p>Lunar regolith stamping device designed to preserve grain orientation for NASA's
+            Artemis mission, using a lab-developed adhesive gel to collect surface samples
+            under extreme conditions.</p>
+        </div>
+      </div>
+
+      <div class="project-entry">
+        <a href="sfs.html" class="project-thumb">
+          <img src="images/sfs_landscape.jpg" alt="Shooting for the Stars">
+        </a>
+        <div class="project-text">
+          <h3><a href="sfs.html">Shooting for the Stars</a></h3>
+          <p class="project-meta">ENGIE 1102: The Art of Engineering</p>
+          <p>Retro-arcade target shooting game built with Sharanya Chatterjee, Hyunwoo Lee,
+            Hannah Moon, and Albert Lessler &mdash; from idea generation through prototyping,
+            manufacturing, and electronics integration.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>&copy; Updated 08/04/2026</p>
+    </footer>
+
   </div>
 
-  <div class="intro-paragraph">
-    <p> Website is currently undergoing updates 🔧 Nonetheless, feel free to take a gander! <br></p>
-    <p><br>I am a sophomore at Columbia University studying mechanical & aerospace engineering.  
-    I currently serve as  mission lead for the NASA Micro-g NExT Challenge and Press Director as part of the Columbia Space Initiative.  
-    I am also an undergraduate researcher in the Robotics and Rehabilitation Laboratory under Prof. Sunil K. Agrawal. <br><br>
-    Interested in: Robotics, human-centered interactions (HCI) and ergonomic design for aerospace tools and applications.<br>  
-    Currently looking for: Summer 2026 opportunities related to mechanical/aerospace engineering, robotics, and project management.</p>
-  </div>
-</header>
-
-
-  <main class="projects">
-    <div class="project-card">
-      <a href="astroid.html">
-        <img src="images/mg_1.JPG" alt="ASTROID under water at the NBL">
-        <div class="project-info">
-          <h2>ASTROID (Adhesive Stamping Technology for Regolith Orientation Integrity Delineation)</h2>
-          <p> Lunar regolith stamping device designed for the 2025 NASA Micro-g NExT Challenge. <br> 
-          Designed in collaboration with the Columbia Space Initiative. </p>
-        </div>
-      </a>
-    </div>
-
-    <div class="project-card">
-      <a href="sfs.html">
-        <img src="images/sfs_landscape.jpg" alt="Shooting for the Stars">
-        <div class="project-info">
-          <h2>Shooting for the Stars</h2>
-          <p>Retro-arcade target shooting game designed for the Art of Engineering ENGIE 1102<br>
-          Designed in collaboration with Sharanya Chatterjee, Hyunwoo Lee, Hannah Moon, and Albert Lessler</p>
-        </div>
-      </a>
-    </div>
-  </main>
-
-  <footer>
-    <p>© 2025 Eileen Lin.</p>
-  </footer>
 </body>
 </html>
